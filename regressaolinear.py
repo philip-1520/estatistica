@@ -36,4 +36,3 @@ def regressaolinear(dados: pd.DataFrame, x: str, y: str, iteracoes: int = 1000, 
 
     # Retorna os valores dos coeficientes arredondados.
     return round(a, precisao), round(b, precisao)
-    
